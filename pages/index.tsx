@@ -1,12 +1,12 @@
-import type { NextPage } from "next";
-import { Intro } from "app/blocks/intro";
+import type { NextPage } from 'next'
+import { Intro } from 'app/blocks/intro'
 
 const Home: NextPage = () => {
   return (
     <>
       <Intro />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
